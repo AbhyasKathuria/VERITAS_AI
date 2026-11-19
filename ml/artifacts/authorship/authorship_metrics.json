@@ -1,0 +1,134 @@
+{
+  "champion_model": "gradient_boosting",
+  "classes": [
+    "human",
+    "ai_generated",
+    "ai_assisted"
+  ],
+  "test_metrics": {
+    "accuracy": 0.8304020100502513,
+    "macro_f1": 0.8219278723072977,
+    "macro_precision": 0.816662948728139,
+    "macro_recall": 0.8407011963977862,
+    "weighted_f1": 0.8300933380304453,
+    "roc_auc": 0.9637204049459639,
+    "ece": 0.046829753354500216,
+    "confusion_matrix": [
+      [
+        289,
+        23,
+        7
+      ],
+      [
+        32,
+        229,
+        56
+      ],
+      [
+        8,
+        9,
+        143
+      ]
+    ],
+    "classes": [
+      0,
+      1,
+      2
+    ]
+  },
+  "validation_results": {
+    "logistic_regression": {
+      "accuracy": 0.7533333333333333,
+      "macro_f1": 0.7544579468657083,
+      "macro_precision": 0.7526663983760281,
+      "macro_recall": 0.763888888888889,
+      "weighted_f1": 0.7497939806832944,
+      "roc_auc": 0.8993248456790123,
+      "ece": 0.19464070023399055,
+      "confusion_matrix": [
+        [
+          203,
+          33,
+          4
+        ],
+        [
+          59,
+          151,
+          30
+        ],
+        [
+          9,
+          13,
+          98
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "random_forest": {
+      "accuracy": 0.8316666666666667,
+      "macro_f1": 0.8253426346830294,
+      "macro_precision": 0.821548484994154,
+      "macro_recall": 0.8555555555555556,
+      "weighted_f1": 0.8328354040438778,
+      "roc_auc": 0.9575250771604938,
+      "ece": 0.19408995885069547,
+      "confusion_matrix": [
+        [
+          210,
+          21,
+          9
+        ],
+        [
+          17,
+          172,
+          51
+        ],
+        [
+          2,
+          1,
+          117
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "gradient_boosting": {
+      "accuracy": 0.84,
+      "macro_f1": 0.8365373201530873,
+      "macro_precision": 0.8294685117687254,
+      "macro_recall": 0.8527777777777777,
+      "weighted_f1": 0.8390507766930682,
+      "roc_auc": 0.9630671296296297,
+      "ece": 0.0376228630161201,
+      "confusion_matrix": [
+        [
+          215,
+          19,
+          6
+        ],
+        [
+          30,
+          179,
+          31
+        ],
+        [
+          3,
+          7,
+          110
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2
+      ]
+    }
+  }
+}

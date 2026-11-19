@@ -1,0 +1,89 @@
+{
+  "champion_model": "gradient_boosting",
+  "test_metrics": {
+    "accuracy": 0.8316582914572864,
+    "macro_f1": 0.7649744403313943,
+    "macro_precision": 0.7450374056805096,
+    "macro_recall": 0.8004304769803422,
+    "weighted_f1": 0.8401510460818105,
+    "roc_auc": 0.90248116663211,
+    "pr_auc": 0.9743428859416785,
+    "ece": 0.10257152836881654,
+    "brier_score": 0.11199263193381681,
+    "confusion_matrix": [
+      [
+        119,
+        40
+      ],
+      [
+        94,
+        543
+      ]
+    ]
+  },
+  "validation_results": {
+    "logistic_regression": {
+      "accuracy": 0.73,
+      "macro_f1": 0.6431508458646616,
+      "macro_precision": 0.6340405518394648,
+      "macro_recall": 0.678125,
+      "weighted_f1": 0.7487781954887218,
+      "roc_auc": 0.7625694444444445,
+      "pr_auc": 0.9217096433997864,
+      "ece": 0.24565441099499744,
+      "brier_score": 0.24459289326642705,
+      "confusion_matrix": [
+        [
+          71,
+          49
+        ],
+        [
+          113,
+          367
+        ]
+      ]
+    },
+    "random_forest": {
+      "accuracy": 0.8116666666666666,
+      "macro_f1": 0.7029325551743628,
+      "macro_precision": 0.7049158570897701,
+      "macro_recall": 0.7010416666666667,
+      "weighted_f1": 0.810768037646069,
+      "roc_auc": 0.8282465277777777,
+      "pr_auc": 0.945549486401223,
+      "ece": 0.14020480676907837,
+      "brier_score": 0.144155680726383,
+      "confusion_matrix": [
+        [
+          62,
+          58
+        ],
+        [
+          55,
+          425
+        ]
+      ]
+    },
+    "gradient_boosting": {
+      "accuracy": 0.8033333333333333,
+      "macro_f1": 0.72095663003894,
+      "macro_precision": 0.7061615514530313,
+      "macro_recall": 0.7458333333333333,
+      "weighted_f1": 0.8119247686462455,
+      "roc_auc": 0.8525868055555555,
+      "pr_auc": 0.9577366454756138,
+      "ece": 0.09878500215715413,
+      "brier_score": 0.1296025283151985,
+      "confusion_matrix": [
+        [
+          78,
+          42
+        ],
+        [
+          76,
+          404
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "dataset_name": "YelpChi",
+  "provenance": "rayana2015collective_kdd",
+  "num_nodes": 45954,
+  "num_features": 32,
+  "num_filtered_spam": 6677,
+  "num_recommended_benign": 39277,
+  "spam_ratio": 0.14529747138442792,
+  "edges_rur": 98630,
+  "edges_rtr": 1147232,
+  "edges_rsr": 6805486,
+  "edges_homo": 7693958
+}

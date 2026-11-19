@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - DEBUG=False
+      - DATABASE_URL=sqlite:///./veritas_ai.db
+    volumes:
+      - ./ml/data:/app/ml/data
+      - ./ml/artifacts:/app/ml/artifacts
+      - ./ml/experiments:/app/ml/experiments
+      - ./veritas_ai.db:/app/veritas_ai.db
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
